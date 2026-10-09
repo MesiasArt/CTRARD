@@ -1,7 +1,9 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ctrard",
+  "account_id": "1dc14f9969bc4759bff170d986f338c7",
   "compatibility_date": "2026-10-09",
   "workers_dev": true,
+  "preview_urls": false,
   "assets": { "directory": "./dist" }
 }

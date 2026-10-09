@@ -10,7 +10,11 @@ Ejecutar `npm run dev` y abrir http://127.0.0.1:5173. No requiere instalar depen
 
 `npm install` instala Wrangler. `npx wrangler login` autentica en Cloudflare; `npm run deploy` publica el Worker `ctrard`. El subdominio workers.dev depende de la cuenta utilizada; para `ctrard.alphaeverd.workers.dev`, debe ser la cuenta con subdominio `alphaeverd`.
 
-La acción `.github/workflows/deploy.yml` publica automáticamente cada push a `main`. Configurar los secretos de GitHub `CLOUDFLARE_API_TOKEN` (permiso de edición de Workers para la cuenta correspondiente) y `CLOUDFLARE_ACCOUNT_ID`.
+La acción `.github/workflows/deploy.yml` publica cada push a `main` una vez configurado el secreto de GitHub `CLOUDFLARE_API_TOKEN` (permiso de edición de Workers para la cuenta correspondiente). La cuenta ya está configurada. Agregar el secreto en https://github.com/MesiasArt/CTRARD/settings/secrets/actions y volver a ejecutar la acción fallida.
+
+Sitio publicado: https://ctrard.alphaeverd.workers.dev.
+
+Fotografía ilustrativa de Zulki Jrzt: https://unsplash.com/photos/Q4f_0gKTMEk, disponible bajo la licencia Unsplash.
 
 ## Contenido pendiente de confirmación
 
