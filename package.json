@@ -1,0 +1,1 @@
+{"name":"ctrard","version":"1.0.0","private":true,"description":"Sitio institucional CTRA RD","scripts":{"dev":"node scripts/serve.mjs","check":"node --check dist/app.js && node --check scripts/serve.mjs","deploy":"wrangler deploy"},"devDependencies":{"wrangler":"^4.0.0"}}
