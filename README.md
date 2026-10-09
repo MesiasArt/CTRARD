@@ -1,6 +1,6 @@
 # CTRA RD
 
-Web institucional del Colegio de Técnicos de Refrigeración y Aire Acondicionado de la República Dominicana. Sitio estático adaptable a móviles, con menú accesible, preguntas frecuentes y descarga local de solicitudes de información.
+Web institucional del Colegio de Técnicos de Refrigeración y Aire Acondicionado de la República Dominicana. Sitio estático adaptable a móviles, con menú accesible, servicios oficiales, inscripción, preguntas frecuentes, contacto y descarga de documentos oficiales.
 
 ## Desarrollo
 
@@ -14,10 +14,22 @@ La acción `.github/workflows/deploy.yml` publica cada push a `main` una vez con
 
 Sitio publicado: https://ctrard.alphaeverd.workers.dev.
 
-Fotografía ilustrativa de Zulki Jrzt: https://unsplash.com/photos/Q4f_0gKTMEk, disponible bajo la licencia Unsplash.
+## Información institucional
 
-## Contenido pendiente de confirmación
+Contenido actualizado a partir de los documentos facilitados:
 
-Antes de usar la web como canal oficial, incorporar teléfono, correo, dirección, canales de afiliación, requisitos, cuotas y actividades confirmadas. El formulario descarga un archivo de texto en el dispositivo: no transmite ni almacena datos, ni confirma inscripciones. Los beneficios se describen según el comunicado proporcionado, sin prometer acuerdos activos.
+- `dist/documentos/brochure-ctra-rd.pdf`: identidad, misión, visión, valores, servicios, presidencia y fotografías institucionales.
+- `dist/documentos/requisitos-inscripcion-ctra-rd.pdf`: requisitos del 5 de septiembre de 2026, cuotas, contactos y canal de entrega por WhatsApp.
+- `dist/documentos/solicitud-inscripcion-ctra-rd.pdf`: formulario oficial rellenable, código 001, versión 1, desde el 30 de abril de 2025. Se publica el original sin modificar sus campos.
 
-La misión, visión y el logo proceden del material facilitado. La fotografía de climatización es ilustrativa y no representa instalaciones ni miembros del colegio. Las tipografías se cargan desde Google Fonts con fuentes de sistema como respaldo.
+La inscripción indicada es de RD$2,800 (membresía anual RD$2,400 + inscripción y carnet RD$400). El documento no contiene una cuenta bancaria utilizable: la web remite a la secretaría para confirmarla antes de realizar el depósito.
+
+Se prioriza el contacto del documento de requisitos ante diferencias con el brochure: Instagram `@ctrardominicana`, correo `ctradominicana@gmail.com` y WhatsApp de inscripción `809-913-7921`. No se publica una URL de Facebook sin confirmar; se muestra el nombre `CTRA RD`.
+
+El sitio no recibe ni almacena los datos de inscripción. El visitante descarga y completa el PDF, reúne los documentos y los entrega directamente a la secretaría por el canal indicado. Los enlaces de WhatsApp abren la conversación sin enviar automáticamente mensajes ni adjuntos.
+
+Las fotografías se extraen sin modificaciones del brochure facilitado. La imagen de refrigeración de portada es la incluida en ese documento; no se afirma que represente instalaciones propias. Las tipografías se cargan desde Google Fonts con fuentes de sistema como respaldo.
+
+## Contenido pendiente
+
+Confirmar los datos bancarios con el colegio y añadir las próximas actividades cuando se conozcan sus fechas y condiciones. No se inventan cuentas de pago ni convocatorias.
